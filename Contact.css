@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Team Section */
+.position-relative {
+  margin-bottom: 100px;
+}
+
+.card {
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.text-primary {
+  color: #0d6efd !important;
+  font-weight: 500;
+}
+
+/* Store Locator Section */
+.shadow-sm {
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+}
+
+/* Contact Form Section */
+.border-2 {
+  border-width: 2px !important;
+}
+
+.rounded-0 {
+  border-radius: 0 !important;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+  padding: 10px 30px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .position-relative {
+    height: auto !important;
+    margin-bottom: 50px;
+  }
+  
+  .position-absolute {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    transform: none !important;
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+  
+  .start-50 {
+    left: 0 !important;
+    transform: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-md-6 {
+    margin-bottom: 30px;
+  }
+  
+  .pe-md-5, .pe-md-4 {
+    padding-right: 15px !important;
+  }
+  
+  .ps-md-0 {
+    padding-left: 15px !important;
+  }
+}
+
+/* Message List Styles */
+.message-list .card {
+  transition: all 0.2s;
+}
+
+.message-list .card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* New style for message cards */
+.message-card {
+  background-color: rgba(216, 240, 239, 0.947) !important; /* Override Bootstrap's card background */
+}
+
+.alert {
+  margin-bottom: 1rem;
+}
+
+/* Team Card Hover Effect */
+.team-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+  transform: scale(1.05); /* Slight scale-up effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+
+/* Add to Contact.css */
+.btn-danger {
+  padding: 5px 10px;
+  font-size: 0.875rem;
+}
+
+.btn-danger:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
